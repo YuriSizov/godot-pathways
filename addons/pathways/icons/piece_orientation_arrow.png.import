@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/piece_orientation_arrow.png-8a7ca315378e1f388a936844394c35fe.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://addons/pathways/icons/piece_orientation_arrow.png"
+dest_files=[ "res://.import/piece_orientation_arrow.png-8a7ca315378e1f388a936844394c35fe.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

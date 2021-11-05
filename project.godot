@@ -1,0 +1,55 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Spatial",
+"class": "PathwayNetwork",
+"language": "GDScript",
+"path": "res://addons/pathways/classes/PathwayNetwork.gd"
+}, {
+"base": "Spatial",
+"class": "PathwayPiece",
+"language": "GDScript",
+"path": "res://addons/pathways/classes/PathwayPiece.gd"
+}, {
+"base": "Spatial",
+"class": "Pathways",
+"language": "GDScript",
+"path": "res://addons/pathways/classes/Pathways.gd"
+} ]
+_global_script_class_icons={
+"PathwayNetwork": "res://addons/pathways/icons/pathway-network.png",
+"PathwayPiece": "res://addons/pathways/icons/pathway-piece.png",
+"Pathways": "res://addons/pathways/icons/pathways.png"
+}
+
+[application]
+
+config/name="Plugin: Pathways"
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/pathways/plugin.cfg" )
+
+[importer_defaults]
+
+scene={
+"external_files/store_in_subdir": true,
+"materials/storage": 0
+}
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
